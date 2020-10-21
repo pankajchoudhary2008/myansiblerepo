@@ -1,0 +1,8 @@
+---
+- hosts: all
+  tasks:
+          - name: This is Hello World Playbook
+            debug:
+                    msg: "Hello Awesome Tower Script"
+
+                  
